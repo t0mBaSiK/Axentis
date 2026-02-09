@@ -6,8 +6,8 @@ import logo from "@/assets/axentis-logo.png";
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Servicios", href: "#planes" },
+  { label: "Portafolio", href: "#portafolio" },
   { label: "Soporte", href: "#soporte" },
-  { label: "Contacto", href: "#contacto" },
 ];
 
 const Navbar = () => {
