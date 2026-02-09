@@ -33,13 +33,18 @@ const PortfolioSection = () => {
           <div className="bg-card rounded-2xl border border-border overflow-hidden card-glow-strong">
             <div className="grid md:grid-cols-2 gap-0">
               {/* Preview */}
-              <div className="relative group overflow-hidden bg-secondary">
-                <div className="aspect-video w-full relative">
+              <div className="relative group overflow-hidden bg-secondary rounded-l-2xl">
+                <div className="aspect-[3/4] w-full relative overflow-hidden">
                   <iframe
                     src="https://velvettroseco.lovable.app/"
                     title="Velvet Troseco - Sitio web creado por Axentis"
-                    className="absolute top-0 left-0 w-[300%] h-[300%] border-0 pointer-events-none"
-                    style={{ transform: "scale(0.3334)", transformOrigin: "top left" }}
+                    className="absolute top-0 left-0 border-0 pointer-events-none"
+                    style={{
+                      width: "1440px",
+                      height: "2160px",
+                      transform: "scale(0.35)",
+                      transformOrigin: "top left",
+                    }}
                     loading="lazy"
                     sandbox="allow-scripts allow-same-origin"
                   />
