@@ -34,25 +34,26 @@ const PortfolioSection = () => {
             <div className="grid md:grid-cols-2 gap-0">
               {/* Preview */}
               <div className="relative group overflow-hidden bg-secondary">
-                <div className="aspect-[4/3] w-full">
+                <div className="aspect-video w-full relative">
                   <iframe
                     src="https://velvettroseco.lovable.app/"
                     title="Velvet Troseco - Sitio web creado por Axentis"
-                    className="w-[200%] h-[200%] origin-top-left scale-50 pointer-events-none border-0"
+                    className="absolute top-0 left-0 w-[300%] h-[300%] border-0 pointer-events-none"
+                    style={{ transform: "scale(0.3334)", transformOrigin: "top left" }}
                     loading="lazy"
                     sandbox="allow-scripts allow-same-origin"
                   />
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-card/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
-                  <a
-                    href="https://velvettroseco.lovable.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-primary text-primary-foreground px-6 py-2.5 rounded-lg text-sm font-semibold flex items-center gap-2 hover:bg-primary/90 transition-all"
-                  >
+                <a
+                  href="https://velvettroseco.lovable.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute inset-0 bg-gradient-to-t from-card/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6"
+                >
+                  <span className="bg-primary text-primary-foreground px-6 py-2.5 rounded-lg text-sm font-semibold flex items-center gap-2">
                     Visitar sitio web <ExternalLink size={16} />
-                  </a>
-                </div>
+                  </span>
+                </a>
               </div>
 
               {/* Details */}
