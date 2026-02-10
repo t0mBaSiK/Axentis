@@ -18,6 +18,7 @@ const plans = [
   {
     name: "Medium",
     price: "$600.000",
+    badge: "Ideal para la mayoría",
     description: "Una landing page más completa con funcionalidades que mejoran la experiencia de tus clientes y facilitan la interacción con tu negocio.",
     features: [
       "Todo lo incluido en el plan Basic",
