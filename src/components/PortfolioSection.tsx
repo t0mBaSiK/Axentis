@@ -34,10 +34,10 @@ const PortfolioSection = () => {
             <div className="grid md:grid-cols-2 gap-0">
               {/* Preview */}
               <div className="relative group overflow-hidden bg-secondary rounded-l-2xl">
-                <div className="aspect-[3/4] w-full relative overflow-hidden">
+                <div className="aspect-[2/3] w-full relative overflow-hidden">
                   <iframe
                     src="https://velvettroseco.lovable.app/"
-                    title="Velvet Troseco - Sitio web creado por Axentis"
+                    title="Velvet Rose - Sitio web creado por Axentis"
                     className="absolute top-0 left-0 border-0 pointer-events-none"
                     style={{
                       width: "1440px",
@@ -69,13 +69,13 @@ const PortfolioSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-2xl font-bold text-foreground mb-2">Velvet Troseco</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-2">Velvet Rose</h3>
                 <span className="inline-block px-3 py-1 rounded-full bg-accent text-accent-foreground text-xs font-medium mb-5 w-fit">
                   Cliente activo
                 </span>
 
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  Uno de nuestros primeros clientes y una colaboración de la que estamos profundamente orgullosos. Velvet Troseco llegó a nosotros con una visión clara: necesitaba una presencia digital que transmitiera la elegancia y calidad de su marca, pero no contaba con las herramientas ni el conocimiento técnico para hacerlo realidad.
+                  Uno de nuestros primeros clientes y una colaboración de la que estamos profundamente orgullosos. Velvet Rose llegó a nosotros con una visión clara: necesitaba una presencia digital que transmitiera la elegancia y calidad de su marca, pero no contaba con las herramientas ni el conocimiento técnico para hacerlo realidad.
                 </p>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                   Nuestro equipo de profesionales en Axentis se encargó de todo el proceso. Comenzamos con una asesoría personalizada donde escuchamos sus necesidades, entendimos su público objetivo y le presentamos diversos bocetos y propuestas de diseño. Trabajamos de la mano con el cliente hasta encontrar exactamente lo que buscaba: una página web moderna, atractiva y completamente funcional que representara fielmente la identidad de su negocio.
