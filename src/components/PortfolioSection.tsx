@@ -105,7 +105,7 @@ const PortfolioSection = () => {
             className="grid grid-cols-3 gap-6 mt-10"
           >
             {[
-              { value: "1", label: "Cliente satisfecho" },
+              { value: "+10", label: "Clientes satisfechos" },
               { value: "100%", label: "Satisfacción garantizada" },
               { value: "∞", label: "Compromiso con tu éxito" },
             ].map((stat) => (
